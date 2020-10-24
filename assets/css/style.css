@@ -1,0 +1,85 @@
+/*Strip the ul of padding and list styling*/
+
+html{
+   padding: 1%;
+}
+footer{
+   position: fixed; 
+   display: block;
+   padding-top: 250px;
+}
+
+.container{
+   background-color: rgba(10, 32, 46, 0.17);
+   padding: 5px 20px 4px 20px;
+   border-radius: 3px;
+   box-shadow: inset #00000067 0px 0px 6px 0px;
+
+}
+
+#imgWrap img{
+   box-shadow:  #00000071 0px 2px 20px 1px;
+}
+
+p .container{
+   padding-bottom: 0px;
+   margin-bottom: 2px;
+}
+#site-name {
+  max-width: 95%;
+   padding: 1px; 
+   display: block;
+   font-size: 2em;
+   margin-top: 0.67em;
+   margin-bottom: 0.05em;
+   margin-left: 0;
+   margin-right: 0;
+   font-weight: bold;
+   font-size: 120% ;
+}
+
+
+ #jumbomod{
+
+   margin: 0px;
+   border-radius: 0px;
+   padding: .15rem !important;
+   margin-bottom: .05rem;
+  
+}
+
+.content{
+   margin-left: 10px;
+}
+
+.content-body{
+   margin: 3px;
+   padding: 3px;
+   max-width: 700px;
+
+}
+
+.content-body img{
+ height: 200px;
+ float: left;
+ margin: 20px;
+ margin-left: 0px;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+   /*Make dropdown links appear inline*/
+   ul {
+       position: static;
+       display: none;
+   }
+   /*Create vertical spacing*/
+   li {
+       margin-bottom: 1px;
+   }
+   /*Make all menu links full width*/
+   ul li, li a {
+       width: 100%;
+   }
+}
+
