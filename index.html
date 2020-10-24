@@ -7,25 +7,16 @@
     <title>Random dog image</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets\css\style.css">  
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="header">
       <div class="jumbotron" id="jumbomod">
-        <div id="site-name">  
-  <h3> Random&nbsp;dog&nbsp;image</h3>
-        </div>
+        <div id="site-name"> <h3> Random&nbsp;dog&nbsp;image</h3></div>
     </div>
 </div>
 <div class="content"> 
-<script>
-           // add dog image
-            console.log("// option one: ") ;
-            dogApiImg = fetch('https://dog.ceo/api/breeds/image/random')
-            .then(response => response.json())
-            .then(data =>  { document.querySelector("#imgWrap").innerHTML = `<img src="${data.message}" alt="doggo">`});
- </script>
 
 <div class="content-body"> 
     <h6>🎉🐶📷</h6> 

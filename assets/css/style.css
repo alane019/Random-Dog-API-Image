@@ -36,16 +36,18 @@ p .container{
    margin-right: 0;
    font-weight: bold;
    font-size: 120% ;
+ 
 }
 
+#site-name h3, h6 {
+   text-shadow: 0 0 2px #0c070721;
+}
 
  #jumbomod{
-
    margin: 0px;
    border-radius: 0px;
    padding: .15rem !important;
    margin-bottom: .05rem;
-  
 }
 
 .content{
