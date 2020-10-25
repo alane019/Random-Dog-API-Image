@@ -6,7 +6,8 @@ html{
 footer{
    position: fixed; 
    display: block;
-   padding-top: 250px;
+   padding-top: 50px;
+   margin-left: 10px;
 }
 
 .container{
@@ -39,6 +40,12 @@ p .container{
  
 }
 
+#dogButton {
+   margin-left: 10px;
+   background-color: #343a40f5;
+   box-shadow:  #00000071 0px 2px 20px 1px;
+}
+
 #site-name h3, h6 {
    text-shadow: 0 0 2px #0c070721;
 }
@@ -63,7 +70,6 @@ p .container{
 
 .content-body img{
  height: 200px;
- float: left;
  margin: 20px;
  margin-left: 0px;
 }
