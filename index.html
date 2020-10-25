@@ -1,5 +1,4 @@
 <!-- \assets\css -->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="assets\css\style.css">  
     <script src="script.js"></script>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
-
 </head>
 <body>
 <div class="header">
@@ -19,16 +17,19 @@
     </div>
 </div>
 <div class="content"> 
-
 <div class="content-body"> 
     <h6>🎉🐶📷</h6> 
-     <div id="imgWrap"> </div>
+    <div id="imgWrapContainer">  
+     <div id="imgWrap">
+        <img id="targetImg" src=""> 
+     </div> </div>
 </div>
-<input id="dogButton" class="btn btn-dark" type="button" value="Let's see one more" onClick="window.location.reload()">
+<input id="dogButton" class="btn btn-dark" type="button" value="Let's see one more">
 <div>
 <footer>
-
-    <div class="container" ><p>Dog image API provided by <a href="https://dog.ceo/" target="_blank">dog.ceo</a></p></div></footer>
+<div class="container" >
+<p>Dog image API provided by <a href="https://dog.ceo/" target="_blank">dog.ceo</a></p></div>
+</footer>
 </div>
 </body>
 </html>

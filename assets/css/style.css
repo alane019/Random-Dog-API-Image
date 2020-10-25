@@ -20,12 +20,15 @@ footer{
 
 #imgWrap img{
    box-shadow:  #00000071 0px 2px 20px 1px;
-   width: 100%;
-    height: auto;
-    max-height: 800px;
+
+    height: 400px;
     -o-object-fit: cover;
     object-fit: cover;
     max-height: 450px;
+}
+
+#imgWrapContainer{
+   height: 450px;
 }
 
 p .container{
@@ -50,6 +53,7 @@ p .container{
    margin-left: 10px;
    background-color: #343a40f5;
    box-shadow:  #00000071 0px 2px 20px 1px;
+   margin-top: 25px;
 }
 
 #site-name h3, h6 {
