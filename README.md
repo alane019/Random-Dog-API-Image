@@ -16,8 +16,8 @@ Learn more about the Fetch API on MDN:  <https://developer.mozilla.org/en-US/doc
   - [License](#license) 
 
 ## Examples
-Demo is viewable here: <https://alane019.github.io/https:/alane019.github.io/random-dog-api-image/>
-
+Demo is viewable here: https://alane019.github.io/random-dog-api-image/
+                         
 ## Usage 
  See API documentation at:  <https://dog.ceo/dog-api/documentation/>
 
