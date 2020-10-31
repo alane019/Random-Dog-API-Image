@@ -1,5 +1,7 @@
 # Random Dog API Image
 
+Demo is viewable here: https://alane019.github.io/random-dog-api-image/
+
 ## Description 
 
 This repository demonstrates how to pull web resources from a public API source to add content a webpage when the page loads. 
@@ -16,6 +18,7 @@ Learn more about the Fetch API on MDN:  <https://developer.mozilla.org/en-US/doc
   - [License](#license) 
 
 ## Examples
+
 Demo is viewable here: https://alane019.github.io/random-dog-api-image/
                          
 ## Usage 
